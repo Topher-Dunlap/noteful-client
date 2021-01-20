@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import AddNote from './AddNote'
 
-describe(`AddNote component`, () => {
+xdescribe(`AddNote component`, () => {
   const stubFolders = [
     {
       "id": "b0715efe-ffaf-11e8-8eb2-f2801f1b9fd1",
