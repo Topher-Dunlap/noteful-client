@@ -51,6 +51,8 @@ class App extends Component {
   }
 
   handleAddNote = note => {
+      note.id = note.id + ""
+      note.folder_id = note.folder_id + ""
     this.setState({
       notes: [
         ...this.state.notes,
